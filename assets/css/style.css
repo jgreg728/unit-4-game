@@ -1,0 +1,80 @@
+body {
+  background-image: url("https://vignette.wikia.nocookie.net/finalfantasy/images/5/50/Cave_Background_Brigade.png/revision/latest?cb=20121114101528");
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.col-sm-8 {
+  height: 400px;
+  color: white;
+  font-family: "Press Start 2P";
+}
+
+#instructionDiv{
+  font-family: "Press Start 2P";
+  font-size: 75%;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  padding-right: 30px;
+  background-color: darkslategray;
+}
+
+.col-sm-6 {
+  text-align: center;
+  color: white;
+  font-size: 130%;
+  font-family: "Press Start 2P";
+  font-size: 100%;
+}
+
+.col-sm-3 {
+  text-align: center;
+  color: white;
+  font-size: 130%;
+  font-family: "Press Start 2P";
+  font-size: 100%;
+}
+
+#randomNumberDiv {
+  background-color: darkslategray;
+  font-family: "Press Start 2P";
+  font-size: 300%;
+  padding: 35px;
+  color: white;
+  text-align: center;
+}
+#totalScoreDiv {
+  background-color: darkslategray;
+  font-family: "Press Start 2P";
+  font-size: 300%;
+  padding: 35px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  height: 70px;
+}
+
+#winDiv {
+  background-color: darkslategray;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 200%;
+  padding: 25px;
+  text-align: center;
+}
+
+#loseDiv {
+  background-color: darkslategray;
+  font-family: "Press Start 2P";
+  color: white;
+  font-size: 200%;
+  padding: 25px;
+  text-align: center;
+}
+
+

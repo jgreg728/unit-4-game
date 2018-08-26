@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Crystal Collectors!!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Crystal Collectors</a>
+    </nav>
+<br>
+
+<!-- INSTRUCTIONS -->
+    <div class="container">
+
+        <div class="row">
+
+          <div class="col-sm-2">
+          </div>
+
+          <div class="col-sm-8">
+            <div id="instructionDiv">
+            <h1>Instructions</h1>
+            <br>  
+            <p>You will be given a random number at the start of the game.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. Win the game by matching your total score with the randomly generated number!</p>
+
+            <p>But be careful! Each crystal is worth a different amount of points as you click on them. And you won't be able to see their values until you click each one! And all of these values change each time the game restarts.</p>
+          </div>
+        </div>
+          <div class="col-sm-2">
+          </div>
+
+        </div>
+
+<!-- CRYSTALS -->
+<br>
+
+        <div class="row">
+          <div class="col-sm-3">
+            Emerald
+            <div id="emeraldDiv">
+              <img src="assets/images/emerald.png" height= 200px; width= 200px>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            Ruby
+            <div id="rubyDiv">
+              <img src="assets/images/ruby.png" height= 200px; width= 200px>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            Sapphire
+            <div id="sapphireDiv">
+              <img src="assets/images/sapphire.png" height= 200px; width= 200px>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            Diamond
+            <div id="diamondDiv">
+              <img src="assets/images/diamond.png" height= 200px; width= 200px>
+            </div>
+          </div>
+        </div>
+<br>
+<br>
+      <div class="row">
+
+<!-- BASE NUMBER -->
+          <div class="col-sm-3">
+            <h3>Base Number</h3>
+            <div id="randomNumberDiv"> 
+            </div>
+          </div>
+
+<!-- TOTAL POINTS -->
+          <div class="col-sm-3">
+            <h3>Total Score</h3>
+            <div id="totalScoreDiv">
+            </div>
+          </div>
+
+<!-- WIN/LOSE INDICATOR -->
+          <div class="col-sm-3"> 
+              <h3>Wins</h3>
+            <div id="winDiv">
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+              <h3>Losses</h3>
+            <div id="loseDiv">
+            </div> 
+          </div>
+    </div>
+
+<br>
+<br>
+
+<!-- End Container -->
+    </div>
+<script src="assets/javascript/game.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+</html>
